@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(158, 155, 155);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px auto;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+  color: red;
+}
